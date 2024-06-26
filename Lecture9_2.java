@@ -11,7 +11,7 @@ class child extends parent {
     }
 
 
-void fun(int a) {
+void fun(int a) { // overLOading
     System.out.println("This is Overloading " + a);
 }
 }

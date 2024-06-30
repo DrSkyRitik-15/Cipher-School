@@ -9,13 +9,20 @@ class A{
 /**
  * Lecture13
  */
+class B extends A{
+    void prinnt(){
+        //   System.out.println(x); // x has private access in A
+          System.out.println(y);
+          System.out.println(z);
+          System.out.println(p);
+    }
+}
 public class Lecture13 {
 
     public static void main(String[] args) {
-        A a=new A();
-        // System.out.println(a.x); // x has private access in A
-        System.out.println(a.y);
-        System.out.println(a.z);
-        System.out.println(a.p);
+        B a=new B();
+        a.prinnt();
+        
+       
         }
 }

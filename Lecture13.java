@@ -18,6 +18,7 @@ class B extends A{
     }
 }
 */
+// Getter and Setter method 
 class OO
 {
     private int a=10;
@@ -69,7 +70,5 @@ public class Lecture13 {
         System.out.println(o.getA());
         System.out.println(o.getB());
 
-        
-       
         }
 }

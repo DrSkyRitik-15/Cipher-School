@@ -45,14 +45,16 @@ class BinarySearchTree {
     }
 }
 
-public class Main {
+public class Project {
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
 
         
         tree.insert(50);
         tree.insert(30);
-        tree.insert(70);
+        tree.insert(85);
+        tree.insert(72);
+        tree.insert(90);
 
         
         int searchKey = 30;

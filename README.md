@@ -19,7 +19,7 @@ This repository contains the projects and exercises I completed as part of my Ja
 ## How to Use the Code
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/DrSkyRitik-15/Cipher-School>
    ```
 2. Open the project in an IDE like IntelliJ IDEA, Eclipse, or NetBeans.
 3. Ensure that JDK 8 or higher is installed and configured.
